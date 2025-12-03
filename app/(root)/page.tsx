@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   console.log("server side");
-  return <div>Hello Next js</div>;
+  return <h1 className="h1">Hello Next js</h1>;
 };
 
 export default page;
